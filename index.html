@@ -89,13 +89,7 @@ canvas {
 
 myFunction()
 
-const myTimeout = setTimeout(myStopFunction, 4000);
 
-function myStopFunction() {
-  document.getElementById("joke").innerHTML = 'Tim tim cái giề!';
-  document.getElementById("name").innerHTML = '';
-  colorText = 'green'
-}
 
   /*
 
@@ -107,7 +101,7 @@ var settings = {
 
   particles: {
 
-    length:   10000, // maximum amount of particles
+    length:   500, // maximum amount of particles
 
     duration:   4, // particle duration in sec
 
@@ -115,7 +109,7 @@ var settings = {
 
     effect: -0.75, // play with this for a nice effect
 
-    size:      8, // particle size in pixels
+    size:      20, // particle size in pixels
 
   },
 
